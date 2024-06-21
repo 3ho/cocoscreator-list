@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.1",
+  "__version__": "1.0.6",
   "general": {
     "designResolution": {
       "width": 1280,
@@ -7,12 +7,18 @@
     }
   },
   "script": {
-    "loose": true
+    "loose": true,
+    "preserveSymlinks": true
   },
   "layer": [
     {
       "name": "canvas_19",
       "value": 524288
     }
-  ]
+  ],
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  }
 }

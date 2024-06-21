@@ -1,7 +1,7 @@
 [
   {
     "__type__": "cc.SceneAsset",
-    "_name": "",
+    "_name": "Main",
     "_objFlags": 0,
     "_native": "",
     "scene": {
@@ -798,7 +798,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "8dLCMgmcxPA7LjTEaGrlAY"
   },
@@ -2019,7 +2018,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "4edH3OAFVHE7AtyivzqdnF"
   },
@@ -2937,7 +2935,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "cc/XkUtCdCQrGKpUumbe7X"
   },
@@ -3855,7 +3852,6 @@
     "_type": 0,
     "_inverted": false,
     "_segments": 64,
-    "_spriteFrame": null,
     "_alphaThreshold": 0.1,
     "_id": "56Ofc/0I9O+4juTK61UIEa"
   },
@@ -6336,33 +6332,23 @@
       "b": 76,
       "a": 255
     },
-    "_pcf": 0,
-    "_bias": 0.1,
-    "_normalBias": 0,
-    "_near": 1,
-    "_far": 30,
-    "_orthoSize": 5,
     "_maxReceived": 4,
     "_size": {
       "__type__": "cc.Vec2",
       "x": 512,
       "y": 512
-    },
-    "_saturation": 1,
-    "_fixedArea": false,
-    "_firstSetCSM": true
+    }
   },
   {
     "__type__": "cc.SkyboxInfo",
     "_envmap": null,
     "_enabled": false,
-    "_useIBL": false,
     "_useHDR": true,
     "_envmapLDR": null,
     "_envmapHDR": null,
     "_diffuseMapLDR": null,
     "_diffuseMapHDR": null,
-    "_applyDiffuseMap": false
+    "_envLightingType": 0
   },
   {
     "__type__": "cc.FogInfo",
