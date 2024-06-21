@@ -1347,7 +1347,9 @@ export default class List extends Component {
         if (this._scrollView['_hasNestedViewGroup'](ev, captureListeners))
             return;
         this._curScrollIsTouch = true;
-        let isMe = ev.eventPhase === Event.AT_TARGET && ev.target === this.node;
+        //let isMe = ev.eventPhase === Event.AT_TARGET && ev.target === this.node;
+        // xiaorenping20240524 Event所在的库在抖音平台没有，暂时直接用2
+        let isMe = ev.eventPhase === 2 && ev.target === this.node;
         if (!isMe) {
             let itemNode: any = ev.target;
             while (itemNode._listId == null && itemNode.parent)
